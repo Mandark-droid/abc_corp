@@ -16,11 +16,11 @@ img, fieldset {
 /* End of CSS Resets */
 
 :root {
-    --color-primary: #003847;
+    --color-primary: #000203;
     --color-accent: #FC794A;
     
     --color-background: #FAFAFA;
-    --color-text: #003847;
+    --color-text: #00090b;
     --color-separator: #C0C0C0;
     --color-soft-highlight: rgba(234, 234, 234, 0.95);
 

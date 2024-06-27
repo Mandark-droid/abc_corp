@@ -1,11 +1,17 @@
 #!/usr/bin/env node
-
+// Add this to the very top of the first file loaded in your app
+var apm = require('elastic-apm-node').start({
+  serviceName: 'abc_corp',
+  secretToken: '',
+  serverUrl: 'http://localhost:8200',
+  environment: 'my-local-dev-env'
+})
 /**
  * Module dependencies.
  */
 const app = require('../app').app;
 const server = require('../app').server;
-const debug = require('debug')('e3retail:server');
+const debug = require('debug')('abc_corp:server');
 
 /**
  * Get port from environment and store in Express.

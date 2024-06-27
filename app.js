@@ -13,6 +13,7 @@ const registerHelpers = require('./utils/handlebars').registerHelpers;
 const indexRouter = require('./routes/index');
 const productsRouter = require('./routes/products');
 
+
 const app = express();
 
 // view engine setup

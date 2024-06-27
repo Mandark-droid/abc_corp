@@ -5,7 +5,7 @@ const productsDb = require('../models/products');
 const PRODUCT_CATEGORIES = require('../services/search/constants').PRODUCT_CATEGORIES;
 const convertArrayToObject = require('../utils').convertArrayToObject;
 
-const debug = require('debug')('e3retail:home');
+const debug = require('debug')('abc_corp:home');
 
 const ELASTICSEARCH_INDEX = process.env.ELASTICSEARCH_INDEX || 'products';
 

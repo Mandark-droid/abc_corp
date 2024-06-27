@@ -5,7 +5,7 @@ const http = require('http');
 const searchService = require('../services/search');
 const productsDb = require('../models/products');
 
-const debug = require('debug')('e3retail:products');
+const debug = require('debug')('abc_corp:products');
 
 const ELASTICSEARCH_INDEX = process.env.ELASTICSEARCH_INDEX || 'products';
 
